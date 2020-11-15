@@ -2,3 +2,45 @@ body {
   text-align:center;
   background-color: rgb(149, 197, 209);
 }
+
+#appName {
+  margin: 10px;
+}
+
+#todos {
+  display: flex;
+  justify-content: center;
+}
+
+#new {
+  width: 30%;
+  margin: 0px;
+  padding: 10px;
+  background-color: rgb(24, 172, 209);
+}
+
+#progress {
+  width: 30%;
+  margin: 0px;
+  padding: 10px;
+  background-color: rgb(35, 158, 189);
+}
+
+#done {
+  width: 30%;
+  margin: 0px;
+  padding: 10px;
+  background-color: rgb(24, 121, 145);
+}
+
+.todo {
+  text-align: left;
+  margin: 0px;
+  padding: 10px;
+  border : 5px solid white ;
+  background-color: rgb(172, 208, 218);
+}
+
+p {
+  margin: 0px;
+}
